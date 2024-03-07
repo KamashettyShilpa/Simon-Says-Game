@@ -4,6 +4,6 @@ Simons game allow users to follow the series of randomly generated colors.
 
 # Technologies used:
 
- HTML
- CSS
- JS
+#  1.HTML
+#  2.CSS
+#  3.JS
