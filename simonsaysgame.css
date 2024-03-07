@@ -30,35 +30,41 @@ body{
 .userFlash{
     background-color: green;
 }
-/* body{
-    text-align: center;
+
+@media(max-width: 512px){
+    .btn_container{
+        display: flex;
+    }
+    .btn{
+        width: 160px;
+        height: 160px;
+        border-radius: 15%;
+        margin: 1rem;
+    }
 }
-.btn{
-    height: 200px;
-    width: 200px;
-    border: 10px solid black;
-    border-radius: 20%;
-    margin: 2rem;
+
+
+@media(max-width: 427px){
+    .btn_container{
+        display: flex;
+    }
+    .btn{
+        width: 130px;
+        height: 130px;
+        border-radius: 15%;
+        margin: 1rem;
+    }
 }
-.btn_container{
-    display: flex;
-    justify-content: center;
+
+@media(max-width: 340px){
+    .btn_container{
+        display: flex;
+    }
+    .btn{
+        width: 75px;
+        height: 75px;
+        border-radius: 15%;
+        border: 5px solid black;
+        margin: 1rem;
+    }
 }
-.red{
-    background-color: #d95980;
-}
-.yellow{
-    background-color:#f99b45 ;
-}
-.green{
-    background-color: #63aac0;
-}
-.purple{
-    background-color: #819ff9;
-}
-.gameFlash{
-    background-color: white;
-}
-.userFlash{
-    background-color: green;
-} */
