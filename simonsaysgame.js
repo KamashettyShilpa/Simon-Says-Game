@@ -56,7 +56,7 @@ document.addEventListener('keypress',function(){
       
         if(userSeq[idx] === gameSeq[idx]){
             if(userSeq.length==gameSeq.length){
-                 setTimeout(levelUp(),1000);
+                 setTimeout(levelUp,1000);
             }
         }else{
             
