@@ -60,9 +60,8 @@ document.addEventListener('keypress',function(){
             }
         }else{
             
-            if(highScore<level){
-                highScore=level;
-            }
+                highScore=highScore+level;
+            
             // h2.innerText=`Game Over! Your score was ${level}\n Press any key to start.`;
            
             h2.innerHTML=`Game Over! Your score was <b>${level}</b><br>Your High Score was ${highScore}<br> Press any key to start.`;
